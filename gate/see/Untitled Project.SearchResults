@@ -1,0 +1,18 @@
+---- CCrcPublic Matches (17 in 9 files) ----
+Common.cc (f:\8721\8721\libbase\source):    CCrcPublic cCrc;
+Crc_public.cc (f:\8721\8721\libbase\source):const unsigned short CCrcPublic::m_asCrc16Tab[256] =
+Crc_public.cc (f:\8721\8721\libbase\source):const unsigned char CCrcPublic::m_aucCrc8Tab[256] =
+Crc_public.cc (f:\8721\8721\libbase\source): 函 数 名  : CCrcPublic
+Crc_public.cc (f:\8721\8721\libbase\source):CCrcPublic::CCrcPublic()
+Crc_public.cc (f:\8721\8721\libbase\source): 函 数 名  : ~CCrcPublic
+Crc_public.cc (f:\8721\8721\libbase\source):CCrcPublic::~CCrcPublic()
+Crc_public.cc (f:\8721\8721\libbase\source): unsigned short CCrcPublic::Crc16(unsigned char *pucDt, unsigned short usLen)
+Crc_public.cc (f:\8721\8721\libbase\source):unsigned short CCrcPublic::Crc16Big(unsigned char *pucDt, unsigned short usLen)
+Crc_public.cc (f:\8721\8721\libbase\source):unsigned char CCrcPublic::Crc8(unsigned char *pucDt, unsigned short usLen)
+Crc_public.h (f:\8721\8721\libbase\include):class CCrcPublic
+Crc_public.h (libbase):class CCrcPublic
+Decoupler.cc (f:\8721\8721\libbase\source):                    CCrcPublic Crc;
+ Gate.cc (source):    CCrcPublic cCrc;
+Tm_can_data_recv.cc (f:\8721\8721\libbase\source):    CCrcPublic   cCrc;
+Tm_can_data_send.cc (f:\8721\8721\libbase\source):    CCrcPublic cCrc;
+Tm_can_pack_info_mng.cc (f:\8721\8721\libbase\source):    CCrcPublic cCrc;
